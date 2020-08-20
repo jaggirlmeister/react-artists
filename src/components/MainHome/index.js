@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import Card from '../Card';
 
-const Main = () => {
+const MainHome = () => {
 
     const[artists, setArtists] = useState([]);
 
@@ -80,4 +80,4 @@ contador = 5; //ESTA SUPER MAL
 setContador(5) //THIS IS THE RIGHT WAY
 */
 
- export default Main;
+ export default MainHome;
